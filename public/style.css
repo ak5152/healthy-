@@ -1,0 +1,37 @@
+body{
+    background-image:url(https://media.defense.gov/2024/Feb/01/2003385981/1920/1080/0/230901-D-TQ271-001.JPG) ;
+    background-size: cover;
+}
+
+h1{
+    background-color: chocolate;
+    opacity: 0.7;
+    font-weight: bolder;
+    line-height: 80px;
+}
+
+.post{
+    background-color: lightblue;
+     font-weight: bolder;
+     opacity: 0.6;
+}
+
+.user{
+    font-style: italic;
+}
+button{
+    background-color: cyan;
+}
+.see{
+    background-color: greenyellow;
+}
+.PAT{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+.new{
+    text-align: center;
+    color: darkred;
+    text-decoration: underline;
+}

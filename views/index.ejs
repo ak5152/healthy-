@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posts</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>HEALTH-CARE</h1>
+   <% for(post of posts){%>
+    <div class="post">
+        <h2 class="user">HOSPITAL NAME: @<%=post.username%></h2>
+        <h3 class="content">content :<%=post.content%></h3>
+        <h3 class="med">medicine:<%=post.medicine  %></h3>
+        <a href="http://localhost:8080/posts/<%=post.id%>"><button>SEE IN DETAIL</button></a>
+    </div>    
+    <%}%>
+    <br/>
+    <br/>
+    <a href="http://localhost:8080/posts/new"><button>ADD NEW DISEASE AND RELATED SYMPTOM</button></a>
+   
+</body>
+</html>
